@@ -1,49 +1,85 @@
-/* Reset some default styles */
-body, h1, h2, p, ul {
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #101010;
+    color: #ffffff;
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
-/* Base styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 0 20px;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #202020;
+    border: 1px solid #505050;
+    border-radius: 10px;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+.header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-header nav ul {
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.id-number {
+    font-size: 14px;
+    color: #808080;
+}
+
+.main-content {
     display: flex;
-    justify-content: center;
-    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-header nav ul li {
-    margin: 0 15px;
+.profile-section, .bio-section, .news-section, .locker-contents, .warning {
+    width: 48%;
+    margin-bottom: 20px;
+    background-color: #303030;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.profile-picture {
+    width: 100%;
+    border-radius: 10px;
 }
 
-main {
-    padding: 20px 0;
+.info {
+    margin-top: 10px;
 }
 
-footer {
-    background: #333;
-    color: #fff;
+.info p {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #505050;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #707070;
+}
+
+.news-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.warning {
+    background-color: #d9534f;
+    color: #ffffff;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
 }
