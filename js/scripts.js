@@ -1,7 +1,7 @@
 document.getElementById('more-button').addEventListener('click', function() {
-    alert('More information will be shown here.');
+    alert('Здесь будет показана дополнительная информация.');
 });
 
 document.getElementById('close-button').addEventListener('click', function() {
-    alert('The window will be closed.');
+    alert('Окно будет закрыто.');
 });
