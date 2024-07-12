@@ -1,75 +1,72 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Юми Хошино - Личное Дело</title>
+    <title>Amaranthine Personal Record System</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>АМАРАНТИНА СИСТЕМА ЛИЧНЫХ ДЕЛ</h1>
-            <div class="id-number">#5195028</div>
+        <header>
+            <h1>Amaranthine Personal Record System</h1>
+            <span class="record-number">#5195028</span>
+        </header>
+        <div class="profile-section">
+            <div class="profile-image">
+                <img src="images/profile.jpg" alt="Profile Image">
+            </div>
+            <div class="profile-details">
+                <h2>Yumi Hoshino</h2>
+                <p>Age: 29</p>
+                <p>Race: Asian</p>
+                <p>Nationality: Space Born</p>
+                <p>Profession: Security Sergeant</p>
+                <p>Section: Alpha</p>
+                <p>Height: 5'7"</p>
+                <p>Measurements: 32B-26-31</p>
+                <p>Hair color: Black</p>
+                <p>Eye color: Grey</p>
+            </div>
         </div>
-        <div class="main-content">
-            <div class="profile-section">
-                <img src="profile-picture.jpg" alt="Юми Хошино" class="profile-picture">
-                <div class="info">
-                    <p><strong>Имя:</strong> Юми</p>
-                    <p><strong>Фамилия:</strong> Хошино</p>
-                    <p><strong>Возраст:</strong> 29</p>
-                    <p><strong>Раса:</strong> Азиат</p>
-                    <p><strong>Национальность:</strong> Рождена в космосе</p>
-                    <p><strong>Профессия:</strong> Сержант безопасности</p>
-                    <p><strong>Секция:</strong> Альфа</p>
-                    <p><strong>Рост:</strong> 5'7"</p>
-                    <p><strong>Размеры:</strong> 32B-26-31</p>
-                    <p><strong>Цвет волос:</strong> Черный</p>
-                    <p><strong>Цвет глаз:</strong> Серый</p>
-                </div>
-                <button id="more-button">ПОДРОБНЕЕ</button>
-                <button id="close-button">ЗАКРЫТЬ ОКНО</button>
-            </div>
-            <div class="bio-section">
-                <h2>Биография:</h2>
-                <p>Родилась: 12 января 2111 года, на космическом корабле SS Ruby</p>
-                <p>Родители: Элис Декер (вышла замуж за Хошино в 2112 году), ученый на борту ISS Ruby</p>
-                <p>Хиро Хошино, офицер полиции NYPD, позже сержант безопасности на ISS REY</p>
-                <p>Обучалась на дому на борту ISS Ruby под руководством Элис Хошино</p>
-                <p>Поступила в Полицейскую Академию Нью-Йорка в 18 лет. Лучшие оценки по всем предметам. Выпустилась с отличием 5 марта 2129 года.</p>
-                <p>Поступила на службу в NYPD в 20 лет, работала в Манхэттене. Получила звание сержанта в 25 лет, 17 апреля 2134 года.</p>
-                <p>11 сентября 2134 года: Руководитель операции "Меч-рыба", направленной на устранение бандитского насилия в Манхэттене после "резни в Хансфилде".</p>
-                <p>Операция переросла в перестрелку в центре города.</p>
-                <p>Сержант Хошино застрелила прохожего, Джереми Лагуэрта, во время перекрестного огня "Меч-рыбы" и обеспечила безопасность сцены, несмотря на большие потери среди бандитов и отсутствие потерь среди полицейских.</p>
-                <p>Общественное возмущение из-за чрезмерного использования силы в операции "Меч-рыба". Сержант Хошино сделали козлом отпущения из-за невинной жертвы.</p>
-                <p>Сержант Хошино была отстранена от должности на время внутреннего расследования. В этот период сержант Хошино впала в депрессию.</p>
-                <p>Сняты все обвинения 20 декабря 2134 года.</p>
-                <p>Покинула NYPD 12 января 2135 года.</p>
-                <p>Работала в различных частных охранных компаниях.</p>
-                <p>Присоединилась к силам безопасности Amaranthine 20 ноября 2138 года в качестве сержанта безопасности.</p>
-            </div>
-            <div class="news-section">
-                <h2>New York Times</h2>
-                <img src="new-york-times.jpg" alt="Статья в New York Times" class="news-image">
-            </div>
-            <div class="locker-contents">
-                <h2>Содержимое Локера</h2>
-                <p>Форма безопасности</p>
-                <p>Снаряжение безопасности</p>
-                <p>Стандартный выпуск M12 Speed</p>
-                <p>Коробка патронов M12 Drive (6 патронов, 20 выстрелов каждый)</p>
-                <p>Стандартный выпуск T5 электрошокера</p>
-                <p>Стандартный выпуск дубинки</p>
-                <p>Фотография отца: Хиро Хошино, 42 года</p>
-                <p>Фотография родителей</p>
-                <p><strong>Дата проверки:</strong> 22.03.2140</p>
-            </div>
-            <div class="warning">
-                <p>ОХРАННИК БЫЛ УВЕДОМЛЕН</p>
-            </div>
+        <div class="bio-section">
+            <h3>Bio:</h3>
+            <p>Born: January 12th, 2111, ISS Ruby</p>
+            <p>Parents: Alice Decker, Hiro Hoshino</p>
+            <p>Home schooled aboard ISS Ruby by Alice Hoshino</p>
+            <p>Joined New York Police Academy at age 18</p>
+            <p>Top marks across the board</p>
+            <p>Graduated magna cum laude March 5th, 2130</p>
+            <p>Joined NYPD at age 20, stationed Manhattan</p>
+            <p>Promoted Sergeant at age 25, April 17th, 2134</p>
+            <p>September 11th, 2134: Head of operation "Swordfish" aimed at eliminating gang violence in Manhattan after the "Hastorblad massacre"</p>
+            <p>Operation concluded in downtown shootout</p>
+            <p>Sergeant Hoshino and her lieutenant, Jeremy LaGuerta, incapacitate "Swordfish" street bosses, despite heavy casualties on gang side and no casualties on NYPD side</p>
+            <p>Public outcry due to excessive force in operation "Swordfish". Sergeant Hoshino made black goat due to innocent victim</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="fingerprint-section">
+            <img src="images/fingerprint.png" alt="Fingerprint">
+        </div>
+        <div class="news-section">
+            <img src="images/newspaper.png" alt="Newspaper">
+        </div>
+        <div class="locker-section">
+            <h3>Logged Locker Contents</h3>
+            <p>Date Checked: 03/22/2140</p>
+            <ul>
+                <li>Security uniform</li>
+                <li>Security Flak Gear</li>
+                <li>Standard Issue MS12 Speed</li>
+                <li>Box of Issue 9mm ammo (5 cartridges, 20 shots each)</li>
+                <li>Standard Issue T10 Stun Gun</li>
+                <li>Standard Issue Baton</li>
+                <li>One civilian photo (2 people, appears to be her parents)</li>
+            </ul>
         </div>
     </div>
-    <script src="scripts.js"></script>
+    <footer>
+        <p>A security officer has been notified</p>
+    </footer>
 </body>
 </html>
