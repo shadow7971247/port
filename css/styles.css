@@ -1,85 +1,71 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #d9534f;
+    font-family: Arial, sans-serif;
     color: #ffffff;
-    margin: 0;
-    padding: 0;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container {
-    width: 80%;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #202020;
-    border: 1px solid #505050;
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
 }
 
-.header {
+header {
     text-align: center;
-    margin-bottom: 20px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
 }
 
-.header h1 {
-    font-size: 24px;
+header h1 {
     margin: 0;
+    font-size: 24px;
 }
 
-.id-number {
+header .record-number {
     font-size: 14px;
-    color: #808080;
+    color: #00ff00;
 }
 
-.main-content {
+.profile-section, .bio-section, .fingerprint-section, .news-section, .locker-section {
+    margin: 20px 0;
+}
+
+.profile-section {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-.profile-section, .bio-section, .news-section, .locker-contents, .warning {
-    width: 48%;
-    margin-bottom: 20px;
-    background-color: #303030;
-    padding: 20px;
+.profile-image img {
+    width: 150px;
+    height: auto;
     border-radius: 10px;
+    margin-right: 20px;
 }
 
-.profile-picture {
+.profile-details {
+    flex-grow: 1;
+}
+
+.profile-details h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.bio-section h3, .locker-section h3 {
+    margin-top: 0;
+}
+
+.fingerprint-section img, .news-section img {
     width: 100%;
-    border-radius: 10px;
+    height: auto;
 }
 
-.info {
-    margin-top: 10px;
-}
-
-.info p {
-    margin: 5px 0;
-}
-
-button {
-    background-color: #505050;
-    color: #ffffff;
-    border: none;
-    padding: 10px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #707070;
-}
-
-.news-image {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.warning {
-    background-color: #d9534f;
-    color: #ffffff;
+footer {
     text-align: center;
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 10px;
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #ff0000;
 }
