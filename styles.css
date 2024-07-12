@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header .record-number {
+    font-size: 14px;
+    color: #00ff00;
+}
+
+.profile-section, .bio-section, .fingerprint-section, .news-section, .locker-section {
+    margin: 20px 0;
+}
+
+.profile-section {
+    display: flex;
+}
+
+.profile-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.profile-details {
+    flex-grow: 1;
+}
+
+.profile-details h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.bio-section h3, .locker-section h3 {
+    margin-top: 0;
+}
+
+.fingerprint-section img, .news-section img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #ff0000;
+}
